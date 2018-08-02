@@ -1,12 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CubeEditor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\EnemyMovement.cs">
     <Files>
-      <File FileName="Assets\CubeEditor.cs" Line="22" Column="66" />
+      <File FileName="Assets\CubeEditor.cs" Line="28" Column="1" />
+      <File FileName="Assets\EnemyMovement.cs" Line="23" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <RunToCursorBreakpoint file="C:\Users\sky\Documents\Unity\2017.3\Tower_Defense\Assets\EnemyMovement.cs" line="12" column="12" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
