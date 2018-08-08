@@ -201,6 +201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startWaypoint: {fileID: 1610849859}
   endWaypoint: {fileID: 644046053}
+  isRunning: 1
 --- !u!114 &644046053 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114880194520320896, guid: 6d3e5c6df48490c4792ce8a7117a14d5,
