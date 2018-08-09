@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Waypoint : MonoBehaviour {
 
 	public bool isExplored = false;
+	public Waypoint exploredFrom;
 
 	Vector2Int gridPos;
 
