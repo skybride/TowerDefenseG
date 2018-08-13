@@ -11,4 +11,11 @@ public class Tower : MonoBehaviour {
 	void Update () {
 		objectToPan.LookAt(targetEnemy);
 	}
+
+	/*
+	void OnTriggerEnter(Collider other)
+	{
+		print ("triggerd");
+	}
+	*/
 }

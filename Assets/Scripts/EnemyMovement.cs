@@ -5,6 +5,8 @@ using System;
 
 public class EnemyMovement : MonoBehaviour {
 
+	[SerializeField] ParticleSystem explosion;
+
 	void Start ()
 	{
 		Pathfinder pathfinder = FindObjectOfType<Pathfinder> ();
