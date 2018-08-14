@@ -1879,7 +1879,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -807327086
+  randomSeed: -868368015
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -5968,10 +5968,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1887261851}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9e5269f96a4b6b4ca086221ae81ae55, type: 3}
+  m_Script: {fileID: 11500000, guid: ede963eba81096e44a86f28a865e919c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionMesh: {fileID: 1087132644}
+  collisionMesh: {fileID: 65602046827515392, guid: eaff7470bcf02cd4aa1c0ccc81f850f1,
+    type: 2}
+  hitPoints: 10
 --- !u!1001 &1926320159
 Prefab:
   m_ObjectHideFlags: 0
@@ -6070,6 +6072,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4713282003488754, guid: eaff7470bcf02cd4aa1c0ccc81f850f1, type: 2}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 65602046827515392, guid: eaff7470bcf02cd4aa1c0ccc81f850f1,
+        type: 2}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

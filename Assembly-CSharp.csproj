@@ -51,8 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EnemyExplosion.cs" />
+     <Compile Include="Assets\Scripts\Bullets.cs" />
      <Compile Include="Assets\Scripts\CubeEditor.cs" />
+     <Compile Include="Assets\Scripts\EnemyDamage.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\Pathfinder.cs" />
      <Compile Include="Assets\Scripts\Tower.cs" />
