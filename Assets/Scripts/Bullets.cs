@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullets : MonoBehaviour {
 
 	[SerializeField] ParticleSystem bullets;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -14,11 +15,5 @@ public class Bullets : MonoBehaviour {
 	void Update () {
 		
 	}
-
-	void OnParticleCollision(GameObject other)
-	{
-		print ("bullets ");
-		Destroy (bullets);
-
-	}
+		
 }

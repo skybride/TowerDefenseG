@@ -16,7 +16,7 @@ public class EnemyDamage : MonoBehaviour {
 	{
 		print ("I'm hit! ");
 		ProcessHit ();
-		if (hitPoints < 1) 
+		if (hitPoints <= 0) 
 		{
 			KillEnemy ();
 
