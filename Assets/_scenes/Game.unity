@@ -223,6 +223,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 99690064}
+  - component: {fileID: 99690065}
   m_Layer: 0
   m_Name: Enemies
   m_TagString: Untagged
@@ -244,6 +245,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &99690065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 99690063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afb66d9af6ee844bab76a116fc31631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsBetweenSpawns: 4
+  enemyPrefab: {fileID: 114375727940715152, guid: ad00fa2d1ad50c14086c44c1d5dc4a05,
+    type: 2}
 --- !u!1001 &137299026
 Prefab:
   m_ObjectHideFlags: 0
@@ -575,7 +590,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToPan: {fileID: 614085739}
-  targetEnemy: {fileID: 1406902113}
   attackRange: 40
   projectileParticle: {fileID: 763727036}
 --- !u!1001 &501166471
