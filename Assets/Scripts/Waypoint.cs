@@ -7,6 +7,7 @@ public class Waypoint : MonoBehaviour {
 
 	public bool isExplored = false;
 	public Waypoint exploredFrom;
+	public bool isPlaceable = true;
 
 	Vector2Int gridPos;
 
@@ -33,8 +34,18 @@ public class Waypoint : MonoBehaviour {
 
 	void OnMouseOver()
 	{
+		if (Input.GetMouseButtonDown(0)) 
+		{
+			if (isPlaceable) 
+			{
+				print ("Placing at " + gameObject.name);	
+			}
+			else
+			{
+				print ("Cannot place here");
+			}
+		}
 		//If your mouse hovers over the GameObject with the script attached, output this message
-		print(gameObject.name);
 	}
 
 	/*

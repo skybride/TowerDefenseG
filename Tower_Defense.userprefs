@@ -6,7 +6,8 @@
       <File FileName="Assets\Scripts\EnemyDamage.cs" Line="1" Column="1" />
       <File FileName="Assets\EnemySpawner.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Tower.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Waypoint.cs" Line="47" Column="2" />
+      <File FileName="Assets\Scripts\Waypoint.cs" Line="25" Column="54" />
+      <File FileName="Assets\Scripts\Pathfinder.cs" Line="58" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
