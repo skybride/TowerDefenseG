@@ -6,6 +6,7 @@ public class EnemyDamage : MonoBehaviour {
 
 	[SerializeField] Collider collisionMesh;
 	[SerializeField] int hitPoints = 10;
+	[SerializeField] ParticleSystem explode;
 
 	// Use this for initialization
 	void Start () {
@@ -30,6 +31,8 @@ public class EnemyDamage : MonoBehaviour {
 		
 	void KillEnemy ()
 	{
+		var vfx = Instantiate (explode, transform.position, Quaternion.identity);
+		vfx.Play ();
 		Destroy (gameObject);
 	}
 }

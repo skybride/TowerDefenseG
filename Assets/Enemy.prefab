@@ -198,6 +198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collisionMesh: {fileID: 65529947053756716}
   hitPoints: 10
+  explode: {fileID: 198491986851943948}
 --- !u!198 &198491986851943948
 ParticleSystem:
   m_ObjectHideFlags: 1
