@@ -5,6 +5,7 @@ using System;
 
 public class EnemyMovement : MonoBehaviour {
 
+	[SerializeField] float movementPeriod = .5f;
 	[SerializeField] ParticleSystem explosion;
 
 	void Start ()
