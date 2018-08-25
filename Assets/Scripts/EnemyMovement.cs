@@ -24,5 +24,6 @@ public class EnemyMovement : MonoBehaviour {
 			yield return new WaitForSeconds (1f); 
 		}
 		print ("Ending patrol");
+		Destroy (gameObject);
 	}
 }
