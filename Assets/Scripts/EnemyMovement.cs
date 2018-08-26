@@ -8,6 +8,7 @@ public class EnemyMovement : MonoBehaviour {
 	[SerializeField] float movementPeriod = .5f;
 	[SerializeField] ParticleSystem explosion;
 
+
 	void Start ()
 	{
 		Pathfinder pathfinder = FindObjectOfType<Pathfinder> ();
@@ -25,5 +26,6 @@ public class EnemyMovement : MonoBehaviour {
 		}
 		print ("Ending patrol");
 		Destroy (gameObject);
+
 	}
 }
