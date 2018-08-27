@@ -17,7 +17,7 @@ public class CubeEditor : MonoBehaviour {
 	void Update()
 	{
 		SnapToGrid ();
-		UpdateLabel ();
+		//UpdateLabel ();
 	}
 
 	void SnapToGrid ()
@@ -30,6 +30,7 @@ public class CubeEditor : MonoBehaviour {
 		);
 	}
 
+	/*
 	void UpdateLabel ()
 	{
 		TextMesh textMesh = GetComponentInChildren<TextMesh> ();
@@ -40,4 +41,5 @@ public class CubeEditor : MonoBehaviour {
 		textMesh.text = labelText;
 		gameObject.name = labelText;
 	}
+	*/
 }
